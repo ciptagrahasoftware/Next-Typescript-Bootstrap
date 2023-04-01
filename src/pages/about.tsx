@@ -1,8 +1,13 @@
 import NavbarComponents from '../components/NavbarComponents'
 import FooterComponents from '../components/FooterComponents'
+import { Head } from 'next/document'
+
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>About Page</title>
+      </Head>
       <NavbarComponents />
       <div className="col-lg-8 mx-auto p-4 py-md-5">
         <h1 className="text-body-emphasis">About Page</h1>
