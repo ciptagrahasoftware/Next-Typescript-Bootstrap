@@ -1,5 +1,5 @@
 import NavbarComponents  from '../components/NavbarComponents'
-export default function Home() {
+export default function About() {
   return (
     <>
     <NavbarComponents/>
